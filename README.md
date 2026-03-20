@@ -246,7 +246,6 @@ SELECT * FROM visitors;
 ```sql
 SELECT * FROM visitors;
 ```
-
 ---
 
 ## 🪣 S3 Cross-Region Replication (CRR)
@@ -297,7 +296,6 @@ RDS Primary → RDS Replica
    ↓
 S3 → Cross-Region Replication
 ```
-
 ---
 
 ## ✅ Final Outcome
