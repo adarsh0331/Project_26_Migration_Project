@@ -9,7 +9,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/tecnomc/Python_App.git'
+                git branch: 'main', url: 'https://github.com/adarsh0331/Project_26_Migration_Project.git'
             }
         }
 
@@ -28,7 +28,7 @@ pipeline {
 
             sh '''
             echo $PASSWORD | docker login -u $USERNAME --password-stdin
-            docker push shilpa1819/python-flask-app:latest
+            docker push adarshbarkunta/python-flask-app:latest
             '''
         }
     }
